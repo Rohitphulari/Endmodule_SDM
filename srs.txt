@@ -1,0 +1,47 @@
+PURPOSE:-
+Purpose of online ticket booking system is that it provides a single platform of ticket booking, unless individuals step into the travel agent business to purchase the tickets.
+Also to provide customer with facility of online train status checking.
+This application would provide clients with an option to book tickets online and to search online for confirmation. 
+
+SCOPE:-
+The scope of this project is to provide effective solution to customers. The purpose of this srs document is to provide developer with basic structure of online ticket booking portal so that they can develope accordingly. also the purpose of this srs is to present it to board members so that they get to know about how the portal is going to be designed and tested and deployed.
+
+DEFINATIONS:-
+1. SRC:- Source
+2. DEST:- Destination
+
+
+
+BUSINESS ENTITIES:-
+1) Customer
+2) State Level railway authority
+3) Central Level railway authority
+
+BUSINESS OPERATIONS:-
+1.Registration for customers and authorities.
+2.Login
+3.Searching for train
+4.Booking
+5.Payment
+6.Cancel booking
+
+Functional Reuirements:-
+1. Customer will have to first register with their mobile no and Email id then only they will be added in portals database.
+2. After registering Customer should be able to login with their credentials matching with credentials provided at the time of registering. these credentials should be checked if they match with ones in the database.
+3. Customer should be provided with options such as book ticket, check availability, etc.
+4. Customer should be given option to choose their preferred class fo eg.: sleeper, ac, 2s etc.
+5. Customer should be provided with serach option to search for trains.
+6. Search option will have to be serched with train number as well as train name.
+7. While booking customer should be asked about their src station and dest station and booking date and they    should be shown trains accordingly.
+8. Customer should be provided with smooth working payment operation.
+9. Payment operation must contain options as upi transactions, debit card payment, credit card payment.
+10. State level and central level authority will also have to register with their mobile no. Email and genuine Authorisation    certificate.
+11. State level authorities should be able to add or delete trains in the portal.
+12. If required they should also be able to cancel any ticket booked by customer.
+
+NON FUNCTIONAL REQUIREMENTS:-
+1. Site should be available 24/7.
+2. There should be no ambuigity while booking tickets.
+3. UI must be good and easy to use.
+4. Site should work properly for any number of customers.
+5. Refund process must be smooth. 
